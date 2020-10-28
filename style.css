@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  color: #575F7D;
+  background-color: #F7F9FC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #7ECE90;
+}
+p {
+  font-family: 'Lora', serif;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #6B72E1;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+}
+
+.profil {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.footer-links {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+ul {
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  background-color: #E6E6E6;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 20px;
+}
+
+i {
+  color: white;
+}
+
+#le-wagon {
+  color: white;
+  background-color: #6B72E1;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: black;
+}
+
+#picture {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
